@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g>
+                                <path d="M39.41667,39.41667h93.16667v93.16667h-93.16667z" fill="#ff9800"></path>
+                                <path d="M21.49961,86.00113l64.49927,-64.50152l64.50152,64.49927l-64.49927,64.50152z"
+                                    fill="#ff9800"></path>
+                                <path
+                                    d="M46.58333,86c0,21.77592 17.64075,39.41667 39.41667,39.41667c21.77233,0 39.41667,-17.64075 39.41667,-39.41667c0,-21.77592 -17.64433,-39.41667 -39.41667,-39.41667c-21.77592,0 -39.41667,17.64075 -39.41667,39.41667"
+                                    fill="#ffeb3b"></path>
+                            </g>
+                        </g>
+                    </svg>

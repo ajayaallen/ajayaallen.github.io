@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// BREAK POINTS
+$larger: 100em; // 1600px
+$large: 93.75em; // 1500px
+$large-2: 78.125em; // 1250px
+$large-3: 68.75em; // 1100px
+$medium: 56.25em; // 900px
+$medium-2: 50em; // 800px
+$medium-3: 43.75em; // 700px
+$small: 37.5em; // 600px
+$small-2: 31.25em; // 500px
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+
+  @media (max-width: $medium) {
+    font-size: 50%;
+  }
+
+  @media (max-width: $medium-3) {
+    font-size: 40%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}

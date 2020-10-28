@@ -1,0 +1,41 @@
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: $color-grey-light-2;
+
+  &__dark {
+    background-color: #111;
+  }
+
+  &__p {
+    font-size: 1.5rem;
+
+    &__dark {
+      color: $color-grey-light-2;
+    }
+  }
+}
+
+.socialmedia {
+  width: fit-content;
+
+  margin: 1rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem;
+
+  &__link {
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.3rem);
+    }
+  }
+
+  &__img {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+  }
+}
