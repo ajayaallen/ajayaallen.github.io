@@ -46,6 +46,11 @@
   );
   position: relative;
 
+  @media (max-width: $small-2) {
+    height: 21.5rem;
+    width: 25.5rem;
+  }
+
   &:hover {
     background-image: linear-gradient(
       to right bottom,

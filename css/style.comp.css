@@ -297,6 +297,10 @@ ul {
   border-radius: 1rem;
   background-image: linear-gradient(to right bottom, #777, #7e6e5d, #000);
   position: relative; }
+  @media (max-width: 31.25em) {
+    .skill {
+      height: 21.5rem;
+      width: 25.5rem; } }
   .skill:hover {
     background-image: linear-gradient(to right bottom, #777, #7e6e5d, #101d2c); }
   .skill__content {
@@ -367,7 +371,7 @@ ul {
   width: fit-content;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 3rem; }
   .socialmedia__link {
     transition: all 0.3s; }
