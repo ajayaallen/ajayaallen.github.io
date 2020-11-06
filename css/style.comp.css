@@ -327,6 +327,7 @@ ul {
   margin-bottom: 9rem;
   background-color: #f7f7f7;
   padding: 3rem;
+  border-radius: 1rem;
   width: 1190px; }
   .about__dark {
     background-color: #664d32; }
