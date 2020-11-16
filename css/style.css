@@ -350,6 +350,9 @@ ul {
       width: 90%; } }
   @media (max-width: 25em) {
     .projects {
+      width: 95%; } }
+  @media (max-width: 380px) {
+    .projects {
       width: 100%; } }
 
 .project {
@@ -384,7 +387,9 @@ ul {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         padding: 1rem;
         border-radius: 0.5rem;
-        margin-right: 0; }
+        margin-right: 0;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone; }
       .project__description--p__dark span {
         background-color: #1a305c;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
@@ -423,6 +428,9 @@ ul {
     .about {
       width: 90%; } }
   @media (max-width: 25em) {
+    .about {
+      width: 95%; } }
+  @media (max-width: 380px) {
     .about {
       width: 100%; } }
 

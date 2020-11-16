@@ -26,6 +26,10 @@
   }
 
   @media (max-width: $small-3) {
+    width: 95%;
+  }
+
+  @media (max-width: 380px) {
     width: 100%;
   }
 }
