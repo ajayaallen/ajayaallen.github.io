@@ -2,7 +2,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: $color-grey-dark-3;
-  position: relative;
 }
 
 .body__dark {
@@ -31,7 +30,7 @@ ul {
 }
 
 .heading_1 {
-  font-size: 13rem;
+  font-size: 12rem;
   font-weight: 900;
 
   @media (max-width: $large-3) {
@@ -95,7 +94,7 @@ ul {
     background-image: repeating-linear-gradient(
       45deg,
       $color-golden-grey-dark 0px,
-      $color-white 20px
+      rgba($color-white, 0.8) 20px
     );
   }
   -webkit-background-clip: text;
@@ -112,22 +111,22 @@ ul {
 
 .heading_4 {
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: 900;
   font-style: italic;
   color: $color-blue-dark;
 
   &__dark {
-    color: $color-white;
+    color: rgba($color-white, 0.8);
   }
 }
 
 .heading_5 {
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 900;
   color: $color-blue-dark;
 
   &__dark {
-    color: $color-white;
+    color: rgba($color-white, 0.8);
   }
 }
 
@@ -137,6 +136,6 @@ ul {
   color: $color-blue-dark;
 
   &__dark {
-    color: $color-white;
+    color: rgba($color-white, 0.8);
   }
 }

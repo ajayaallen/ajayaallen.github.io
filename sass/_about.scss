@@ -1,6 +1,8 @@
+#about {
+  padding: 8rem 0;
+}
+
 .about {
-  margin-top: 9rem;
-  margin-bottom: 9rem;
   background-color: $color-grey-light-1;
   padding: 3rem;
   border-radius: 1rem;
@@ -21,6 +23,10 @@
 
   @media (max-width: $medium-2) {
     width: 90%;
+  }
+
+  @media (max-width: $small-3) {
+    width: 100%;
   }
 }
 

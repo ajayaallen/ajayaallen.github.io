@@ -1,20 +1,13 @@
 #home {
-  min-height: 100vh;
-  position: relative;
+  padding-top: 20vh;
+  padding-bottom: 15vh;
 
-  @media (max-width: $large) {
-    margin-top: 10rem;
-    margin-bottom: 6rem;
+  @media (max-width: $medium-3) {
+    padding-bottom: 24vh;
   }
 
-  @media (max-width: $large-3) {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
-  @media (max-width: $medium) {
-    margin-top: 0;
-    margin-bottom: 0;
+  @media (max-width: $small) {
+    padding-bottom: 30vh;
   }
 }
 
@@ -23,12 +16,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
-  width: 100vw;
-
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
 
   @media (min-width: $larger) {
     justify-content: center;
@@ -36,18 +23,6 @@
 
   @media (max-width: $large) {
     flex-direction: column;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
-  }
-
-  @media (max-width: $large-3) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  @media (max-width: $medium) {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
 

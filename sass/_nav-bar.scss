@@ -63,6 +63,10 @@
   &:link,
   &:visited,
   &:active {
+    color: rgba($color-white, 0.8);
+  }
+
+  &:hover {
     color: $color-white;
   }
 }
